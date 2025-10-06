@@ -2,9 +2,9 @@ print("Bienvenido al semestre 3")
 print("Programacion III")
 
 
-<<<<<<< HEAD
 print("hola desde la ute")
-=======
+
+
+print("Yo soy un superprogramador")
 print("RESUELVO CONFLICTO")
->>>>>>> master
 
