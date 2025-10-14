@@ -7,6 +7,7 @@ print("hola desde la ute")
 
 
 print("Yo soy un superprogramador")
+print("RESUELVO CONFLICTO")
 
 print("CAMBIO PARA GUARDAR EN EL STASH")
 
