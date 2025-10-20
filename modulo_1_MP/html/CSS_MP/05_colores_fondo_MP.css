@@ -1,0 +1,14 @@
+.fondo
+{
+    color: pink;
+    background-image: url('../images_MP/control_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(132, 224, 194);
+    opacity: 0.9;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}

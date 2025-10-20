@@ -1,0 +1,32 @@
+body
+{
+    height: 100px;
+    position: relative;
+}
+
+.estatico{
+    background-color: aqua; /* vuelo normal */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.relativo{
+    background-color: orange; /* vuelo retrasado */
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.fijo{
+    background-color: darkblue; /* puerta de embarque */
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
