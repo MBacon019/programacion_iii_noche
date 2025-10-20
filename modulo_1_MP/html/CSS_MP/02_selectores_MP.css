@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(0, 51, 102); /* Azul oscuro como color corporativo de aeropuerto */
+}
+
+.tipo_clase{
+    color: rgb(255, 140, 0); /* Naranja para destacar estado de vuelo */
+}
+
+#selector_id{
+    color: rgb(0, 153, 204); /* Azul claro para puertas de embarque */
+}
+
+*{
+    margin: 0;
+}
+
+div p{
+    color: green; /* Verde para actualización */
+}
+
+ul > li{
+    color: chocolate; /* Marrón para la lista de vuelos */
+}

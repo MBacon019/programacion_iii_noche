@@ -1,0 +1,24 @@
+.layout
+{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    padding: 20px;
+}
+
+/* Adaptación de colores al tema aeropuerto */
+header {grid-area: header; background-color: rgb(0, 51, 102);}      /* azul oscuro para info general */
+aside {grid-area: aside; background-color: rgb(231, 76, 60);}      /* rojo para alertas */
+main {grid-area: main; background-color: rgb(52, 152, 219);}       /* azul claro para listado de vuelos */
+footer {grid-area: footer; background-color: rgb(155, 89, 182);}   /* morado para puertas de embarque */
+
+.layout > * {
+    padding: 20px;
+    color: white;           /* texto visible */
+    font-weight: bold;
+    border-radius: 5px;
+}

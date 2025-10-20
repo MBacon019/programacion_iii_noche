@@ -1,0 +1,30 @@
+@keyframes mover{
+    0% {
+        transform: translateX(0); 
+        background-color: rgb(52, 152, 219); /* azul para inicio */
+    }
+    50% {
+        transform: translateX(100px); 
+        background-color: rgb(241, 196, 15); /* amarillo para alerta */
+    }
+    100% {
+        transform: translateX(0); 
+        background-color: rgb(231, 76, 60); /* rojo para retrasado */
+    }
+}
+
+.caja
+{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(52, 152, 219); /* azul inicial */
+    animation: mover 3s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    background-color: rgb(44, 62, 80); /* fondo estilo tablero de aeropuerto */
+    padding: 20px;
+    border-radius: 10px;
+}
+.item{
+    background-color: rgb(52, 152, 219); /* azul para vuelos en horario */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Opcional: cambiar color según estado */
+.item:nth-child(2){ background-color: rgb(241, 196, 15); } /* amarillo para retrasado */
+.item:nth-child(3){ background-color: rgb(231, 76, 60); }  /* rojo para cancelado */
+.item:nth-child(4){ background-color: rgb(155, 89, 182); } /* morado para puerta */
