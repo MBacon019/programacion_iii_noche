@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CONTROL DE VUELOS DE AEROPUERTO</title>
+    </head>
+    <body>
+        <p>
+            Formulario de Registro de Vuelo de Aeropuerto
+        </p>
+
+        <form action="proceso_vuelo.php" method="post">
+            <fieldset>
+                <legend>
+                    Registro de Vuelo
+                </legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre del Piloto</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Escribe el nombre del piloto">
+                        </td>
+                        <td>
+                            <label for="correo">Correo del Piloto</label>
+                            <input type="email" id="correo" name="correo" placeholder="Escribe el correo del piloto">
+                        </td>
+                        <td>
+                            <label for="edad">Edad del Piloto</label>
+                            <input type="edad" id="edad" name="edad" placeholder="Escribe la edad del piloto">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="fecha">Fecha del Vuelo</label>
+                            <input type="date" id="fecha" name="fecha">
+                        </td>
+                        <td>
+                            <label for="color">Color del Avión</label>
+                            <input type="color" id="color" name="color">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="tipo_vuelo">Tipo de Vuelo</label>
+                            <input type="radio" id="comercial" name="tipo_vuelo" value="Comercial"><label for="comercial">Comercial</label>
+                            <input type="radio" id="privado" name="tipo_vuelo" value="Privado"><label for="privado">Privado</label>
+                        </td>
+                        <td>
+                            <label for="pais_destino">País de Destino</label>
+                            <select id="pais_destino" name="pais_destino">
+                                <option value="EC">Ecuador</option>
+                                <option value="CO">Colombia</option>
+                                <option value="MX">México</option>
+                                <option value="US">Estados Unidos</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="comentario">Observaciones del Vuelo</label>
+                            <textarea id="comentario" name="comentario" rows="4" cols="40" placeholder="Escribe detalles adicionales del vuelo"></textarea>
+                            <br>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="confirmacion" name="confirmacion" required>
+                            <label for="confirmacion">Todos los datos son veridicos</label>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Registrar Vuelo">
+                <input type="reset" value="Limpiar Formulario">
+            </fieldset>
+        </form>
+    </body>
+</html>
