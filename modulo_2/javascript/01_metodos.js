@@ -1,0 +1,1 @@
+console.log("Bienvenido a Javascript DESDE UN ARCHIVO EXTERNO")
