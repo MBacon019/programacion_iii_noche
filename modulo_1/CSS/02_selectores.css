@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(55, 91, 145);
+}
+
+.tipo_clase{
+    color: rgb(161, 123, 123);
+}
+
+#selector_id{
+    color: rgb(17, 212, 212);
+}
+
+*{
+    margin: 0;
+}
+
+div p{
+    color: green;
+}
+
+ul > li{
+    color: chocolate;
+} 
