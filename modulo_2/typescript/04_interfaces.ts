@@ -1,57 +1,34 @@
-interface Usuario{
-    id: number,
-    nombre: string,
-    correo: string
+interface usuario {
+    id: number;
+    nombre: string;
+    correo: string;
 }
 
-const usuario1: Usuario = {
+const usuariuo1: usuario = {
     id: 1,
-    nombre: 'Marcelo',
-    correo: 'marcelo@gmail.com'
+    nombre: "Mateo",
+    correo: "mateoalba1234@gmail.com"
+}
+console.log(usuariuo1);
+console.log(usuariuo1.nombre);
+
+interface producto {
+    id: number;
+    nombre: string;
+    precio: number;
 }
 
-console.log(usuario1);
-console.log(usuario1.nombre);
-
-
-interface Producto{
-    id: number,
-    nombre: string,
-    precio: number
+const producto1: producto = {
+    id: 101,
+    nombre: "Laptop",
+    precio: 1500
 }
 
-const producto1: Producto ={
-    id: 1,
-    nombre: 'Laptop',
-    precio: 500,
-}
-
-const producto2: Producto ={
-    id: 2,
-    nombre: 'Monitor',
+const producto2: producto = {
+    id: 102,
+    nombre: "Smartphone",
+    precio: 800
 }
 
 console.log(producto1);
-console.log(producto1.precio)
-
-
-interface User{
-    id: number,
-    nombre: string,
-    contraseña: string
-}
-
-const user: User = {
-    id: 1,
-    nombre:'Marcelo',
-    contraseña: 'contraseña',
-}
-
-function login(user: User):void{
-    if(user.contraseña='contraseña'){
-        console.log('usuario autenticado');
-    }else {
-        console.log('acceso denegado');
-    }
-}
-login(user)
+console.log(producto1.precio);
