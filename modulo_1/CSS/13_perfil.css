@@ -12,8 +12,8 @@ h1{
     width: 250px;
     text-align: center;
     background-color: rgb(121, 134, 194);
-    padding: 20px;
-    border-radius: 12px;
+    padding: 50px;
+    border-radius: 50px;
     color: beige;
 }
 
@@ -21,6 +21,6 @@ h1{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50px;
-    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
