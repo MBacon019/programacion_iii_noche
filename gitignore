@@ -38,3 +38,10 @@ Thumbs.db
 
 # Otros
 *.tgz
+
+# Carpetas temporales de compilación/ejecución (ej: TypeScript build output)
+# Mantener los ficheros de ejercicios `.ts` y las carpetas de ejercicios; ignorar salidas y dependencias instaladas.
+**/tmp/
+
+# Ignorar lockfiles de paquetes generados localmente si no deseas incluirlos (descomenta si lo prefieres)
+# package-lock.json
